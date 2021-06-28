@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+
+        <service id="digi1_secure_imgproxy.services.thumbnail_url_template" class="Digi1SecureImgProxyAddon\Services\ThumbnailUrlTemplate">
+            <argument type="service" id="shopware_media.media_service"/>
+            <argument type="service" id="frosh_thumbnail_processor.services.thumbnail_url_template"/>
+        </service>
+
+    </services>
+</container>

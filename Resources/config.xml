@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+
+        <element>
+            <name>Domain</name>
+            <label>Domain</label>
+            <label lang="de">Domain</label>
+            <value>https://imgproxy.example.com/</value>
+        </element>
+
+        <element>
+            <name>imgproxykey</name>
+            <label>KEY</label>
+            <label lang="de">KEY</label>
+        </element>
+
+        <element>
+            <name>imgproxysalt</name>
+            <label>SALT</label>
+            <label lang="de">SALT</label>
+        </element>
+
+        <element>
+            <name>resizingType</name>
+            <label>resizing_type</label>
+            <value>fit</value>
+        </element>
+
+        <element>
+            <name>gravity</name>
+            <label>gravity</label>
+            <value>sm</value>
+        </element>
+
+        <element type="boolean">
+            <name>enlarge</name>
+            <label>enlarge</label>
+            <value>0</value>
+        </element>
+
+        <element type="number">
+            <name>signatureSize</name>
+            <label>signature size</label>
+            <value>32</value>
+        </element>
+
+    </elements>
+</config>
+
+
